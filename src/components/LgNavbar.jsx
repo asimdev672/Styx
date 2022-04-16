@@ -19,58 +19,59 @@ const LgNavbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mx-auto mb-2 mb-lg-0 nav-itemss-list">
-              <li className="nav-item nav-itemss">
+            <ul className="navbar-nav ms-auto mb-2 mb-lg-0  nav-itemss-list">
+            {/* <ul className="navbar-nav ms-auto mb-2 mb-lg-0 mx-5 mx-lg-0 nav-itemss-list"> */}
+              <li className="nav-item mx-5 px-3 px-lg-0 mx-lg-0 nav-itemss">
                 <a className="nav-link active" aria-current="page" href="#">
                   Home
                 </a>
               </li>
-              <li className="nav-item   nav-itemss">
+              <li className="nav-item px-3 px-lg-0  mx-5 mx-lg-0 nav-itemss">
                 <a className="nav-link " href="">
                   STYX Gallery
                 </a>
               </li>
-              <li className="nav-item   nav-itemss">
+              <li className="nav-item px-3 px-lg-0  mx-5 mx-lg-0 nav-itemss">
                 <a className="nav-link" href="">
                   ROADMAP
                 </a>
               </li>
-              <li className="nav-item   nav-itemss">
+              <li className="nav-item px-3 px-lg-0  mx-5 mx-lg-0 nav-itemss">
                 <a className="nav-link" href="">
                   Work
                 </a>
               </li>
-              <li className="nav-item   nav-itemss">
+              <li className="nav-item px-3 px-lg-0  mx-5 mx-lg-0 nav-itemss">
                 <a className="nav-link" href="">
                   Shop
                 </a>
               </li>
-              <li className="nav-item   nav-itemss">
+              <li className="nav-item px-3 px-lg-0  mx-5 mx-lg-0 nav-itemss">
                 <a className="nav-link" href="#">
                   Character
                 </a>
               </li>
-              <li className="nav-item   nav-itemss">
+              <li className="nav-item   mx-5 mx-lg-0 nav-itemss">
                 <a className="nav-link" href="">
                   <img src="img/discord-icon.svg" alt="" />
                 </a>
               </li>
-              <li className="nav-item   nav-itemss">
+              <li className="nav-item   mx-5 mx-lg-0 nav-itemss">
                 <a className="nav-link" href="">
                   <img src="img/telegram-icon.svg" alt="" />
                 </a>
               </li>
-              <li className="nav-item   nav-itemss">
+              <li className="nav-item   mx-5 mx-lg-0 nav-itemss">
                 <a className="nav-link" href="">
                   <img src="img/github-icon.svg" alt="" />
                 </a>
               </li>
-              <li className="nav-item   nav-itemss">
+              <li className="nav-item   mx-5 mx-lg-0 nav-itemss">
                 <a className="nav-link" href="">
                   <img src="img/twitter-icon.svg" alt="" />
                 </a>
               </li>
-              <li className="nav-item   nav-itemss">
+              <li className="nav-item   mx-5 mx-lg-0 nav-itemss">
                 <a className="nav-link" href="">
                   <img src="img/medium-icon.svg" alt="" />
                 </a>
@@ -106,7 +107,7 @@ const LgNavbar = () => {
                 </ul>
               </li>
               <button className="btn btn-primary mx-2">Connect Wallet</button>
-              <img src="img/shop.png" alt="default" className="ms-1"/>
+              <img src="img/shop.png" alt="default"/>
             </ul>
           </div>
         </div>
