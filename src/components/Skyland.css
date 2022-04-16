@@ -1,0 +1,58 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+.main-section{
+    background-color: black;
+    
+}
+.sidebar {
+    background: #222127;
+    color: white;
+}
+.sidebar-item {
+    border-bottom: 1px solid #2e2e2e;
+}
+.sidebar-item h2{
+    margin: 6px 23px 8px 4px;
+    padding: 8px 70px 8px 16px;
+}
+.sidebar-heading{
+    margin: 6px 3px 8px 4px;
+    padding: 8px 70px 8px 16px;
+    border-bottom: 1px solid #2e2e2e;
+}
+.sidebar-item p{
+    margin: 8px 23px 8px 4px;
+    padding: 10px 70px 10px 16px;
+}
+.sidebar-item:hover{
+    background: #782ce8;
+    transition: 1.5s;
+}
+.main-styxland h3{
+color: white;
+}
+.main-styxland label{
+color: white;
+}
+.first-div{
+    border-bottom: 1px solid #222127;
+}
+.input{
+    width: 11rem;
+    padding: 0.3rem 0.2rem;
+    margin: 0.3rem 0.2rem 0rem 0rem;
+    outline: none;
+    border: none;
+    background: #2e2e2e;
+    color: aliceblue;
+    border-radius: 4px;
+}
+.selectbox{
+    width: 8rem;
+    padding: 0.5rem 0.2rem;
+    margin: 0.3rem 0.3rem 0.6rem 0rem;
+    border: 1px solid #2e2e2e;
+    background: black;
+    color: white;
+    outline: none;
+}
+

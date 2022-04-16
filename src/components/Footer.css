@@ -1,0 +1,33 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+.main-footer{
+    background: #18171d;
+    padding: 60px 0;
+    
+}
+.main-footer h4{
+   color: white;
+}
+.main-footer p{
+   color: white;
+}
+.footer-item ul{
+list-style: none;
+}
+.footer-item ul li a{
+text-decoration: none;
+color: #b0aeb9;
+}
+.footer-item ul li a:hover{
+text-decoration: none;
+color: #782ce8;
+ cursor: pointer;
+ font-weight: 700;
+}
+.last-p{
+    background: black;
+    padding: 20px 0;
+    color:#b0aeb9 ;
+}
+.last-p p{
+    margin: 5px 0;
+}

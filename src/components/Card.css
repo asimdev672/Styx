@@ -1,0 +1,21 @@
+.card-div h6 {
+    color: white;
+   }
+   .card-div p{
+    color: white;
+    display: inline;
+   }
+   .card-div li{
+   list-style: none;
+   }
+   .card-div button{
+       margin: 0 0.1rem;
+       padding: 0.6rem 0.6rem;
+       background: #8d128d;
+       font-weight: 500;
+       border-radius: 8px;
+       width: 11.6rem;
+       color: white;
+       border: none;
+   }
+   
