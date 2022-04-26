@@ -6,6 +6,8 @@
 .sidebar {
     background: #222127;
     color: white;
+    position: sticky;
+    top: 0;
 }
 .sidebar-item {
     border-bottom: 1px solid #2e2e2e;
